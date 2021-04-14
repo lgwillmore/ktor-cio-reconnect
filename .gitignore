@@ -1,0 +1,44 @@
+.gradle
+build
+webserver/build
+webserver/out
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Frontend genereated
+private-backend/src/main/resources/spa
+public-backend/src/main/resources/spa
+
+plurex_private.conf
+plurex_public.conf
+
+.attach_pid*
+
+logs/
+
+### Teamcity
+.teamcity/target
+
+*/out/
+
